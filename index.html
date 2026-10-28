@@ -1,11 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-</head>About Me
-<body>
-    
+    <title>Adithya Nair — Software Architect</title>
+</head>
+<body style="margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #0b0f19; color: #f3f4f6; line-height: 1.6; box-sizing: border-box;">
+
+    <!-- HEADER & NAVIGATION -->
+    <header style="position: fixed; top: 0; left: 0; width: 100%; background: rgba(11, 15, 25, 0.85); backdrop-filter: blur(12px); border-bottom: 1px solid #1f293d; z-index: 1000; display: flex; justify-content: space-between; align-items: center; padding: 1rem 5%; box-sizing: border-box;">
+        <div style="font-size: 1.25rem; font-weight: bold; letter-spacing: 1px; color: #22d3ee;">
+            ADITHYA<span style="color: #f3f4f6;">.NAIR</span>
+        </div>
+        <nav style="display: flex; gap: 2rem;">
+            <a href="#about" style="color: #9ca3af; text-decoration: none; font-weight: 500;">About</a>
+            <a href="#skills" style="color: #9ca3af; text-decoration: none; font-weight: 500;">Skills</a>
+            <a href="#hobbies" style="color: #9ca3af; text-decoration: none; font-weight: 500;">Hobbies</a>
+            <a href="#contact" style="color: #9ca3af; text-decoration: none; font-weight: 500;">Contact Me</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section style="min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 0 1.5rem; background: radial-gradient(circle at center, #172033 0%, #0b0f19 100%);">
+        <div style="max-width: 800px;">
+            <span style="background: rgba(34, 211, 238, 0.1); color: #22d3ee; padding: 0.5rem 1.2rem; border-radius: 50px; font-size: 0.875rem; font-weight: 600; border: 1px solid rgba(34, 211, 238, 0.2);">Based in Wayanad, Kerala</span>
+            <h1 style="font-size: clamp(2.5rem, 5vw, 4.5rem); margin: 1.5rem 0 1rem; font-weight: 800; letter-spacing: -1px;">Hi, I'm <span style="background: linear-gradient(to right, #22d3ee, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Adithya Nair</span></h1>
+            <p style="font-size: clamp(1rem, 2vw, 1.25rem); color: #9ca3af; max-width: 600px; margin: 0 auto 2.5rem;">Software Architect designing scalable systems, bridging data science, logistics workflows, and robust engineering.</p>
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="#contact" style="background: #22d3ee; color: #0b0f19; padding: 0.75rem 2rem; border-radius: 6px; font-weight: 600; text-decoration: none; box-shadow: 0 4px 14px rgba(34, 211, 238, 0.3);">Contact Me</a>
+                <a href="#about" style="background: transparent; color: #f3f4f6; padding: 0.75rem 2rem; border-radius: 6px; font-weight: 600; text-decoration: none; border: 1px solid #374151;">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" style="padding: 6rem 10%; background: #070a12;">
+        <div style="max-width: 1000px; margin: 0 auto;">
+            <h2 style="font-size: 2.25rem; font-weight: 700; margin-bottom: 1rem; text-align: center;">About Me</h2>
+            <div style="width: 60px; height: 4px; background: #22d3ee; margin: 0 auto 3rem; border-radius: 2px;"></div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 3rem; align-items: center;">
+                <div>
+                    <p style="color: #9ca3af; margin-bottom: 1.5rem;">I am a <strong style="color: #f3f4f6;">Software Architect</strong> operating from the scenic hills of Wayanad. My background uniquely blends technical architecture with structural insights from my degree in <strong style="color: #f3f4f6;">BSc Data Science and Logistics</strong>.</p>
+                    <p style="color: #9ca3af;">I specialize in outlining high-performance system backbones, optimizing pipelines, and transforming complex business requirements into elegant code structures.</p>
+                </div>
+                <div style="background: #111827; padding: 2rem; border-radius: 12px; border: 1px solid #1f293d;">
+                    <h3 style="margin-top: 0; font-size: 1.25rem; color: #22d3ee;">Overview</h3>
+                    <ul style="padding-left: 1.2rem; color: #9ca3af; margin: 0;">
+                        <li style="margin-bottom: 0.5rem;"><strong>Profession:</strong> Software Architect</li>
+                        <li style="margin-bottom: 0.5rem;"><strong>Education:</strong> BSc Data Science & Logistics</li>
+                        <li style="margin-bottom: 0.5rem;"><strong>Location:</strong> Wayanad, India</li>
+                        <li><strong>Passion:</strong> Clean Architecture & Problem Solving</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" style="padding: 6rem 10%; background: #0b0f19;">
+        <div style="max-width: 900px; margin: 0 auto; text-align: center;">
+            <h2 style="font-size: 2.25rem; font-weight: 700; margin-bottom: 1rem;">Core Skills</h2>
+            <div style="width: 60px; height: 4px; background: #22d3ee; margin: 0 auto 3rem; border-radius: 2px;"></div>
+            
+            <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+                <div style="background: #111827; border: 1px solid #1f293d; padding: 1rem 2rem; border-radius: 8px; font-weight: 600; color: #22d3ee; font-size: 1.1rem;">Python</div>
+                <div style="background: #111827; border: 1px solid #1f293d; padding: 1rem 2rem; border-radius: 8px; font-weight: 600; color: #22d3ee; font-size: 1.1rem;">Java</div>
+                <div style="background: #111827; border: 1px solid #1f293d; padding: 1rem 2rem; border-radius: 8px; font-weight: 600; color: #22d3ee; font-size: 1.1rem;">HTML5 / Web Layouts</div>
+                <div style="background: #111827; border: 1px solid #1f293d; padding: 1rem 2rem; border-radius: 8px; font-weight: 600; color: #22d3ee; font-size: 1.1rem;">Software Architecture</div>
+                <div style="background: #111827; border: 1px solid #1f293d; padding: 1rem 2rem; border-radius: 8px; font-weight: 600; color: #22d3ee; font-size: 1.1rem;">Data Modeling & Logistics</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HOBBIES SECTION -->
+    <section id="hobbies" style="padding: 6rem 10%; background: #070a12;">
+        <div style="max-width: 900px; margin: 0 auto; text-align: center;">
+            <h2 style="font-size: 2.25rem; font-weight: 700; margin-bottom: 1rem;">Hobbies & Interests</h2>
+            <div style="width: 60px; height: 4px; background: #22d3ee; margin: 0 auto 3rem; border-radius: 2px;"></div>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+                <div style="background: #111827; padding: 2.5rem 2rem; border-radius: 12px; border: 1px solid #1f293d; text-align: left;">
+                    <h3 style="color: #22d3ee; margin-top: 0; font-size: 1.4rem;">✈️ Travel</h3>
+                    <p style="color: #9ca3af; margin-bottom: 0;">Exploring new landscapes, wandering through nature trails across Wayanad and beyond, and gaining fresh perspectives from diverse cultures and environments.</p>
+                </div>
+                <div style="background: #111827; padding: 2.5rem 2rem; border-radius: 12px; border: 1px solid #1f293d; text-align: left;">
+                    <h3 style="color: #22d3ee; margin-top: 0; font-size: 1.4rem;">💻 Coding</h3>
+                    <p style="color: #9ca3af; margin-bottom: 0;">Building side projects, experimenting with algorithms, and automating workflows for fun outside of professional design scopes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION (CTA) -->
+    <section id="contact" style="padding: 6rem 10%; background: #0b0f19;">
+        <div style="max-width: 600px; margin: 0 auto; text-align: center;">
+            <h2 style="font-size: 2.25rem; font-weight: 700; margin-bottom: 1rem;">Get In Touch</h2>
+            <div style="width: 60px; height: 4px; background: #22d3ee; margin: 0 auto 1.5rem; border-radius: 2px;"></div>
+            <p style="color: #9ca3af; margin-bottom: 3rem;">Interested in collaborating on a system architecture project or exploring tech discussions? Drop a message below.</p>
+            
+            <form style="display: flex; flex-direction: column; gap: 1.25rem; text-align: left;">
+                <div>
+                    <label style="display: block; font-size: 0.875rem; font-weight: 600; margin-bottom: 0.5rem; color: #9ca3af;">Your Name</label>
+                    <input type="text" placeholder="Enter your name" style="width: 100%; padding: 0.875rem; background: #111827; border: 1px solid #1f293d; border-radius: 6px; color: #f3f4f6; font-family: inherit; box-sizing: border-box;">
+                </div>
+                <div>
+                    <label style="display: block; font-size: 0.875rem; font-weight: 600; margin-bottom: 0.5rem; color: #9ca3af;">Email Address</label>
+                    <input type="email" placeholder="name@example.com" style="width: 100%; padding: 0.875rem; background: #111827; border: 1px solid #1f293d; border-radius: 6px; color: #f3f4f6; font-family: inherit; box-sizing: border-box;">
+                </div>
+                <div>
+                    <label style="display: block; font-size: 0.875rem; font-weight: 600; margin-bottom: 0.5rem; color: #9ca3af;">Message</label>
+                    <textarea rows="5" placeholder="Write your message here..." style="width: 100%; padding: 0.875rem; background: #111827; border: 1px solid #1f293d; border-radius: 6px; color: #f3f4f6; font-family: inherit; resize: vertical; box-sizing: border-box;"></textarea>
+                </div>
+                <button type="submit" style="background: #22d3ee; color: #0b0f19; padding: 1rem; border: none; border-radius: 6px; font-weight: bold; font-size: 1rem; cursor: pointer; transition: opacity 0.2s;">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer style="padding: 2.5rem 5%; background: #05070d; border-top: 1px solid #1f293d; text-align: center; color: #4b5563; font-size: 0.875rem;">
+        <p style="margin: 0;">&copy; 2026 Adithya Nair. All rights reserved.</p>
+    </footer>
+
 </body>
-</html> 
+</html>
